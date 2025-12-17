@@ -1,0 +1,737 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --Lavender-color: #7A27FD;
+    --lavender2-color: #7F22FE;
+    --lavender-light-color: #EDE9FE;
+    --lavender-light2-color: #F5F3FF;
+    --Purple-color: #5537F7;
+    --gray-color: #79818F;
+    --gray-main2-color: #827982;
+    --gray-main3-color: #364153;
+    --gray-light2-color: #dddee2;
+    --gray-light-color: #99A1AF;
+    --gray-light3-color: #F3F4F6;
+
+    --blue-light-color: #287BFF;
+    --blue-main-color: #1761FD;
+    --blue-main2-color: #155DFC;
+    --sky-color: #00AEE0;
+    --blue-main3-color: #006AF8;
+    --blue-light3-color: #DBEAFE;
+    --yellow-light-color: #FFB100;
+    --yellow-main-color: #FF7100;
+    --orange-main-color: #D36A00;
+    --orange-light-color: #FEF3C6;
+    --orange-light2-color: #FFFBEB;
+    --red-main3-color: #FD1C50;
+    --red-main-color: #E90018;
+    --red-main2-color: #FF2056;
+    --red-light-color: #FFF1F2;
+    --red-light2-color: #FFE4E6;
+    --gold-main-color: #FFB900;
+    --green-main-color: #009966;
+    --green-light-color: #D0FAE5;
+    --green-ligh2-color: #ECFDF5;
+
+
+}
+
+.text-orange {
+    color: var(--orange-main-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-light-color);
+}
+
+.text-blue {
+    color: var(--blue-main2-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-light3-color);
+}
+
+.text-lavander {
+    color: var(--Lavender-color);
+}
+
+.text-gray {
+    color: var(--gray-color);
+}
+
+.text-gray2 {
+    color: var(--gray-main3-color);
+}
+
+.text-gray-light {
+    color: var(--gray-light-color);
+}
+
+.bg-gray {
+    background-color: var(--gray-light3-color);
+}
+
+.text-red-main2 {
+    color: var(--red-main2-color);
+}
+
+.text-gold-main {
+    color: var(--gold-main-color);
+}
+
+.bg-goldmain {
+    background-color: var(--gold-main-color);
+}
+
+.bg-greenlight {
+    background-color: var(--green-light-color);
+}
+
+.bg-greenlight2 {
+    background-color: var(--green-ligh2-color);
+}
+
+.text-green {
+    color: var(--green-main-color);
+}
+
+.bg-lavender {
+    background-color: var(--lavender-light-color);
+}
+
+.bg-lavenderlight2 {
+    background-color: var(--lavender-light2-color);
+}
+
+.text-lavander2 {
+    color: var(--lavender2-color);
+}
+
+.bg-red-main {
+    background-color: var(--red-main2-color);
+}
+
+.bg-red-light {
+    background-color: var(--red-light-color);
+}
+
+.text-red {
+    color: var(--red-main-color);
+}
+
+/*******************************************************************************/
+.container-fluid {
+    padding-inline: 150px;
+}
+
+nav .container-fluid .navbar-brand div:first-of-type {
+    padding: 8px 11px;
+    background-image: linear-gradient(to right, var(--Lavender-color), var(--Purple-color));
+    border-radius: 12px;
+    font-size: 1.0938rem;
+    box-shadow: 0 8px 10px -2px #E2D5FF;
+}
+
+nav .container-fluid .navbar-brand div:last-of-type h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+nav .container-fluid .navbar-brand div:last-of-type p {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    color: var(--gray-color);
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+nav .container-fluid .collapse ul li.btn-add button {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right, var(--Lavender-color), var(--Purple-color));
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+nav .container-fluid .collapse ul li.btn-add button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 15px -5px #E0D2FD;
+}
+
+nav .container-fluid .collapse ul li.btn-add button i {
+    font-size: 10px;
+}
+
+nav .container-fluid .collapse ul li.nav-img a div {
+    width: 40px;
+    height: 40px;
+    border-radius: .625rem;
+}
+
+/******************************end nav*****************************/
+#contact {
+    padding-top: 100px;
+    min-height: 100vh;
+
+}
+
+.bg-icon-1 {
+    background-image: linear-gradient(to right bottom, var(--blue-light-color), var(--blue-main-color));
+}
+
+.bg-icon-2 {
+    background-image: linear-gradient(to right bottom, var(--yellow-light-color), var(--yellow-main-color));
+}
+
+.bg-icon-3 {
+    background-image: linear-gradient(to right bottom, var(--red-main3-color), var(--red-main-color));
+}
+
+.icon-style {
+    padding: 12px 14px;
+    border-radius: 12px;
+}
+
+#contact .counter .col div.inner {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.07);
+    transition: all 0.4s;
+}
+
+#contact .counter .col div.inner:hover {
+    box-shadow: 0 4px 6px 1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+#contact .counter .col div.inner span:last-of-type {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+#contact .all-contacts .col-xl-9 .search .position-absolute {
+    top: 25%;
+    left: 1.5%;
+}
+
+#contact .all-contacts .col-xl-9 .search input {
+    padding-inline: 44px 10px;
+    padding-block: 13px;
+    border: 1px solid var(--gray-light2-color);
+    border-radius: 12px;
+}
+
+#contact .all-contacts .col-xl-9 .search input::placeholder {
+    color: var(--gray-light-color);
+}
+
+#contact .all-contacts .col-xl-9 .search h2 {
+    font-size: 1.875rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+#contact .all-contacts .col-xl-9 .search p,
+#contact .all-contacts .col-xl-9 .no-contacts>div:last-of-type p,
+#contact .all-contacts .col-xl-3 .inner p {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+#contact .all-contacts .col-xl-9 .no-contacts {
+    padding: 100px;
+}
+
+#contact .all-contacts .col-xl-9 .no-contacts>div:first-of-type .icon {
+    padding: 25px 22px;
+    background-color: #F3F4F6;
+    border-radius: 15px;
+}
+
+#contact .all-contacts .col-xl-9 .no-contacts>div:first-of-type i {
+    font-size: 30px;
+    color: #D1D5DC;
+}
+
+#contact .all-contacts .col-xl-9 .no-contacts>div:last-of-type h3 {
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 600;
+    color: var(--gray-color);
+
+}
+
+.icon-style2 {
+    padding: 7px 11px;
+    border-radius: 10px;
+}
+
+#contact .all-contacts .col-xl-3 .inner {
+    min-height: 190px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.07);
+}
+
+#contact .all-contacts .col-xl-3 .inner .title i {
+    font-size: 13px;
+}
+
+#contact .all-contacts .col-xl-3 .inner:first-of-type .title {
+    background-image: linear-gradient(to right, #FFFBEB, #FFF7EC);
+    padding: 20px;
+}
+
+#contact .all-contacts .col-xl-3 .inner:last-of-type .title {
+    background-image: linear-gradient(to right, #FFF1F2, #FEF2F2);
+    padding: 20px;
+}
+
+#contact .all-contacts .col-xl-3 .inner .title h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+#contact .all-contacts .col-xl-3 .inner .title p {
+    font-size: .6875rem;
+    line-height: 1.0625rem;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+/**********************/
+#contact .all-contacts .col-xl-3 .body {
+    padding: 10px;
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact,
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact {
+    padding: 8px;
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact .letter,
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact .letter {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    /* background-image: linear-gradient(to right bottom, var(--sky-color), var(--blue-main3-color)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact .image,
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact .image {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact div:last-of-type p span:first-of-type,
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact div:last-of-type p span:first-of-type {
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact div:last-of-type p span:last-of-type,
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact div:last-of-type p span:last-of-type {
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact>div:last-of-type {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: var(--red-light2-color);
+    color: var(--red-main-color);
+}
+
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact>div:last-of-type {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: var(--green-light-color);
+    color: var(--green-main-color);
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact:hover {
+    background-color: var(--red-light2-color);
+}
+
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact:hover {
+    background-color: var(--orange-light2-color);
+}
+
+#contact .all-contacts .col-xl-3 .emergency .emergency-contact:hover>div:last-of-type {
+    background-color: var(--red-main2-color);
+    color: white;
+}
+
+#contact .all-contacts .col-xl-3 .favorites .favorites-contact:hover>div:last-of-type {
+    background-color: var(--green-main-color);
+    color: white;
+}
+
+/*******************/
+
+
+#contact .all-contacts .col-xl-9 .contact-added .card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.07);
+    flex: 1;
+    min-height: 100px;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body div .letter {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    /* background-image: linear-gradient(to right bottom, var(--sky-color), var(--blue-main3-color)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body div .image {
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body div h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body>div:first-of-type .star {
+    padding: 4px;
+    padding-right: 7px;
+    border: 2px solid white;
+    font-size: 8px;
+    top: -9%;
+    right: 20%;
+
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body>div:first-of-type .heart {
+    padding: 4px;
+    padding-right: 5px;
+    border: 2px solid white;
+    font-size: 8px;
+    bottom: -9%;
+    right: 18%;
+
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body .contact-info span {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: var(--gray-main2-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body .contact-info .tel {
+    background-color: var(--blue-light3-color);
+    color: var(--blue-main2-color);
+    padding: 6px;
+    font-size: 10px;
+    border-radius: 6px;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body .contact-info .mail {
+    background-color: var(--lavender-light-color);
+    color: var(--lavender2-color);
+    padding: 7px 8px;
+    font-size: 10px;
+    border-radius: 6px;
+
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body .contact-info .locate {
+    background-color: var(--green-light-color);
+    color: var(--green-main-color);
+    padding: 7px 8px;
+    font-size: 10px;
+    border-radius: 6px;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-body>div:last-of-type span {
+    font-size: .6875rem;
+    line-height: 1.0625rem;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer {
+    padding-block: 10px;
+    background-color: #FAFBFC !important;
+    border-top: none;
+
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:first-of-type a {
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:first-of-type a:first-of-type:hover {
+    background-color: var(--green-light-color)
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:first-of-type a:last-of-type:hover {
+    background-color: var(--lavender-light-color);
+    color: var(--gold-main-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button {
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:nth-of-type(1):hover,
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:nth-of-type(2):hover {
+    background-color: #F3F4F6;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:nth-of-type(3):hover {
+    background-color: var(--blue-light3-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:nth-of-type(4):hover {
+    background-color: var(--red-light-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button i {
+    color: var(--gray-color);
+    font-size: .875rem;
+
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button .fa-star,
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button .fa-heart {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--gray-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button .fa-star.active {
+    color: var(--gold-main-color);
+    -webkit-text-stroke: 0;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button .fa-heart-pulse.active {
+    color: var(--red-main2-color);
+    -webkit-text-stroke: 0;
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:hover .fa-star {
+    -webkit-text-stroke: 1px var(--gold-main-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:hover .fa-heart {
+    -webkit-text-stroke: 1px var(--red-main-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:hover .fa-pen {
+    color: var(--blue-main2-color);
+}
+
+#contact .all-contacts .col-xl-9 .contact-added .card .card-footer>div:last-of-type button:hover .fa-trash {
+    color: var(--red-main-color);
+}
+
+/**************************end**********************************/
+#addcontact .modal .modal-body .row label {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+#addcontact .modal .modal-body .row p {
+    font-size: .75rem;
+    line-height: 14px;
+}
+
+#addcontact .modal .modal-body .row input,
+#addcontact .modal .modal-body .row select,
+#addcontact .modal .modal-body .row textarea {
+    padding: 10px;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+}
+
+#addcontact .modal .modal-body .row input::placeholder,
+#addcontact .modal .modal-body .row select::placeholder,
+#addcontact .modal .modal-body .row textarea option:first-of-type {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: var(--gray-light-color);
+}
+
+#searchInput:focus {
+    border-color: #8E51FF !important;
+    box-shadow: 0 0 0 3px #E8DCFF;
+    outline: none;
+}
+
+#addcontact .modal .modal-body .row input:focus,
+#addcontact .modal .modal-body .row select:focus,
+#addcontact .modal .modal-body .row textarea:focus {
+    border-color: #8E51FF;
+    box-shadow: 0 0 0 3px #E8DCFF;
+    transform: scale(1.009);
+    background-color: white;
+    outline: none;
+}
+
+#addcontact .modal .modal-body .row textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+#addcontact .form-check-input {
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    background-color: white !important;
+    border: 2px solid #7c7777;
+
+
+}
+
+#addcontact label.form-check-label {
+    color: oklch(0.21 0.034 264.665);
+}
+
+#addcontact .form-check-input:hover {
+    border-color: #4F4F4F;
+}
+
+#addcontact .form-check-input:checked {
+    background-color: #0078D7 !important;
+    border: none;
+}
+
+#addcontact .form-check-input:checked:hover {
+    background-color: #00599F !important;
+
+}
+
+#addcontact #avatar {
+    width: 90px;
+    height: 90px;
+    background-image: linear-gradient(to right, #4596FF, #1E6BFD);
+}
+
+#addcontact #avatar i {
+    font-size: 30px;
+}
+
+#addcontact label.avatar {
+    background-color: #F3F4F6;
+    padding: 8px 12px;
+    color: #6A7282;
+    border-radius: 10px;
+}
+
+#addcontact button {
+    padding-block: 10px;
+    border-radius: 10px;
+}
+
+#addcontact button.buttn-close {
+    background-color: #F3F4F6;
+}
+
+#addcontact button.buttn-close:hover {
+    background-color: #E5E7EB;
+}
+
+#addcontact button.buttn-save {
+    background-image: linear-gradient(to right, var(--Lavender-color), var(--Purple-color));
+}
+
+#addcontact button.buttn-save:hover {
+    box-shadow: 0 12px 15px -5px #E0D2FD;
+}
+
+#addcontact .modal {
+    background-color: rgba(143, 144, 193, 0.351);
+    backdrop-filter: blur(5px);
+    padding: 15px;
+}
+
+#addcontact .modal-dialog {
+    max-width: 500px;
+
+}
+
+#addcontact .modal-content {
+    border-radius: 20px;
+    overflow: hidden;
+    border: none !important;
+    padding: 10px;
+}
+
+#addcontact .modal-body {
+    overflow-y: auto !important;
+    height: 75vh;
+    padding-right: 10px;
+    scrollbar-width: none;
+}
+
+#addcontact .modal-body::-webkit-scrollbar {
+    display: none;
+}
+
+#addcontact .modal-body:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.input-error {
+    border: 1px solid var(--red-main-color) !important;
+    box-shadow: none !important;
+}

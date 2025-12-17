@@ -1,0 +1,37 @@
+
+@media (min-width: 768px) and (max-width: 1400px){
+    .container-fluid {
+    padding-inline: 30px !important;
+}
+}
+
+@media (max-width: 992px) {
+    .container-fluid {
+    padding-inline: 10px !important;
+}
+nav .container-fluid .navbar-brand div:first-of-type {
+    padding: 6px 9px;
+}
+nav .container-fluid .navbar-brand div:last-of-type h1{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+nav .container-fluid .collapse ul li.nav-img a div {
+    width: 35px;
+    height: 35px;
+}
+nav .container-fluid .collapse ul li.btn-add button{
+    margin-right: 0 !important;
+}
+nav .container-fluid .collapse ul li.btn-add button span{
+    display: none;
+}
+/*******************end nav*********************/
+#contact .counter .col div.inner span:last-of-type{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+#contact .all-contacts .col-xl-9 .search h2{
+    font-size: 1.5rem;
+}
+}
